@@ -70,7 +70,7 @@ export default function Header() {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold text-gray-300 px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 ease-in-out">
-              Services
+              Features
               <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none text-gray-400" />
             </PopoverButton>
 
@@ -113,13 +113,13 @@ export default function Header() {
           </Popover>
 
           <a href="#" className="text-sm font-semibold text-gray-300 px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 ease-in-out">
-            Features
+            Home
           </a>
           <a href="#" className="text-sm font-semibold text-gray-300 px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 ease-in-out">
             About
           </a>
           <a href="#" className="text-sm font-semibold text-gray-300 px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 ease-in-out">
-            Feedback
+            Add Sevices
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
